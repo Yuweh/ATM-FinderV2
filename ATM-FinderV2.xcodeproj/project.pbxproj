@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900EBD471FEBCFDC002B4557 /* ATMFinderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900EBD461FEBCFDC002B4557 /* ATMFinderVC.swift */; };
 		9052C5B01FEA7BAE0077881F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052C5AF1FEA7BAE0077881F /* AppDelegate.swift */; };
-		9052C5B21FEA7BAE0077881F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9052C5B11FEA7BAE0077881F /* ViewController.swift */; };
 		9052C5B51FEA7BAE0077881F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9052C5B31FEA7BAE0077881F /* Main.storyboard */; };
 		9052C5B71FEA7BAE0077881F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9052C5B61FEA7BAE0077881F /* Assets.xcassets */; };
 		9052C5BA1FEA7BAE0077881F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9052C5B81FEA7BAE0077881F /* LaunchScreen.storyboard */; };
+		BDC5F862806ACD96E4A5FFC7 /* Pods_ATM_FinderV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9899B6FC8C29FE3BE50B81 /* Pods_ATM_FinderV2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		541DB3A1C23BF59CBB663B86 /* Pods-ATM-FinderV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM-FinderV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATM-FinderV2/Pods-ATM-FinderV2.debug.xcconfig"; sourceTree = "<group>"; };
+		551B53152BA5CBB83B15B700 /* Pods-ATM-FinderV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATM-FinderV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATM-FinderV2/Pods-ATM-FinderV2.release.xcconfig"; sourceTree = "<group>"; };
+		900EBD461FEBCFDC002B4557 /* ATMFinderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATMFinderVC.swift; sourceTree = "<group>"; };
 		9052C5AC1FEA7BAE0077881F /* ATM-FinderV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ATM-FinderV2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9052C5AF1FEA7BAE0077881F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9052C5B11FEA7BAE0077881F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9052C5B41FEA7BAE0077881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9052C5B61FEA7BAE0077881F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9052C5B91FEA7BAE0077881F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9052C5BB1FEA7BAE0077881F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B9899B6FC8C29FE3BE50B81 /* Pods_ATM_FinderV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATM_FinderV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC5F862806ACD96E4A5FFC7 /* Pods_ATM_FinderV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8486D5CAD8A7168DC90883 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9899B6FC8C29FE3BE50B81 /* Pods_ATM_FinderV2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9052C5A31FEA7BAE0077881F = {
 			isa = PBXGroup;
 			children = (
 				9052C5AE1FEA7BAE0077881F /* ATM-FinderV2 */,
 				9052C5AD1FEA7BAE0077881F /* Products */,
+				9148EAAAE180BDBE52DF443D /* Pods */,
+				0F8486D5CAD8A7168DC90883 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +70,22 @@
 			isa = PBXGroup;
 			children = (
 				9052C5AF1FEA7BAE0077881F /* AppDelegate.swift */,
-				9052C5B11FEA7BAE0077881F /* ViewController.swift */,
+				900EBD461FEBCFDC002B4557 /* ATMFinderVC.swift */,
 				9052C5B31FEA7BAE0077881F /* Main.storyboard */,
 				9052C5B61FEA7BAE0077881F /* Assets.xcassets */,
 				9052C5B81FEA7BAE0077881F /* LaunchScreen.storyboard */,
 				9052C5BB1FEA7BAE0077881F /* Info.plist */,
 			);
 			path = "ATM-FinderV2";
+			sourceTree = "<group>";
+		};
+		9148EAAAE180BDBE52DF443D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				541DB3A1C23BF59CBB663B86 /* Pods-ATM-FinderV2.debug.xcconfig */,
+				551B53152BA5CBB83B15B700 /* Pods-ATM-FinderV2.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9052C5BE1FEA7BAE0077881F /* Build configuration list for PBXNativeTarget "ATM-FinderV2" */;
 			buildPhases = (
+				DC9EB4062EAD37AD12F24C71 /* [CP] Check Pods Manifest.lock */,
 				9052C5A81FEA7BAE0077881F /* Sources */,
 				9052C5A91FEA7BAE0077881F /* Frameworks */,
 				9052C5AA1FEA7BAE0077881F /* Resources */,
+				24C10B9CC687904900BF1493 /* [CP] Embed Pods Frameworks */,
+				A6A0CB980DCFAC3C22D6B41F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +158,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24C10B9CC687904900BF1493 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATM-FinderV2/Pods-ATM-FinderV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6A0CB980DCFAC3C22D6B41F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATM-FinderV2/Pods-ATM-FinderV2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC9EB4062EAD37AD12F24C71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9052C5A81FEA7BAE0077881F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9052C5B21FEA7BAE0077881F /* ViewController.swift in Sources */,
 				9052C5B01FEA7BAE0077881F /* AppDelegate.swift in Sources */,
+				900EBD471FEBCFDC002B4557 /* ATMFinderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +347,7 @@
 		};
 		9052C5BF1FEA7BAE0077881F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541DB3A1C23BF59CBB663B86 /* Pods-ATM-FinderV2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +362,7 @@
 		};
 		9052C5C01FEA7BAE0077881F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551B53152BA5CBB83B15B700 /* Pods-ATM-FinderV2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
